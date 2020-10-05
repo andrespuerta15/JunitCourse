@@ -1,0 +1,22 @@
+Aserciones:
+
+asserEquals: Evalua si dos objetos pasados por parametros son iguales.
+assertNotEquals: Evalua si dos objetos pasados por parametros son diferentes.
+assertTrue: Evalua si la condicion pasada como parametro, es verdadera. 
+assertFalse: Evalua si la condicion pasada como parametro, es falsa.
+assertNull: Comprueba si un objeto es nulo.
+assertNotNull: Comprueba si un objeto no es nulo.
+assertSame: Comprueba que dos objetos sean la misma instancia.
+assertNotSame: Comprueba que dos objetos no sean la misma instancia.
+assertThat: Permite que las aserciones se parezcan mas al lenguaje natural.
+fail: Se utiliza para hacer fallar un test explicitamente.
+
+Hamcrest es una libreria basada en matches.
+Junit, incluyo Hamcrest en la version 4.8.2
+
+Hamcrest-Library => contiene toda la implementacion de los matchers disponibles.
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING) => Permite ejecutar los metodos en orden alfabetico, pero es mala implementación si se desea ordenar la ajecucion de los metodos de una clase de pruebas.
+
+Test Teoria: Pretende capturar un aspecto del comportamiento en un numero posiblemente infinito de escenarios y trata de validarlo. Cualquier teoria afirma que sea cierto para cada conjunto de datos.
+Datapoint: Valores unicos
